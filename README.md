@@ -11,5 +11,4 @@ Using git commands for version control
 chicago.csv, new_york_city.csv,washington.csv, bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://dev.to/chanduthedev/how-to-display-all-rows-from-data-frame-using-pandas-dha
