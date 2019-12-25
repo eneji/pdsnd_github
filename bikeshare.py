@@ -67,7 +67,7 @@ def time_stats(df):
     print("{} is the most common month of travels".format(months[most_common_month].title()))
     # TO DO: display the most common day of week
     most_common_week = df['week_day'].value_counts().idxmax()
-    print("{} is the most common week day of travels".format(most_common_week))
+    print("The most common week day of travels: {}".format(most_common_week))
     # TO DO: display the most common start hour
     most_common_hour = df['hour'].value_counts().idxmax()
     print("{} is the most common hour of travels".format(most_common_hour))    
@@ -110,7 +110,7 @@ def trip_duration_stats(df):
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
     print('The total travel time is: ', convert_to_hh_mm_ss(total_travel_time))
-    #  display mean travel time
+    #  display average travel time
     mean_travel_time = df['Trip Duration'].mean()
     print('The average trip duration is: ', convert_to_hh_mm_ss(mean_travel_time))
     min_travel_time = df['Trip Duration'].min()
