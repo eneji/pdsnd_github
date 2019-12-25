@@ -17,14 +17,7 @@ days = ['all','sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 
 
 def get_filters():
     
-    """
-    Asks user to specify a city, month, and day to analyze.
-
-    Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    """
+   
     city = input('Enter city to explore \n (options: chicago, new york city, washington): ').lower()
             # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Enter month to explore \n (options: all, january, february, ... , june): ').lower()
@@ -38,16 +31,7 @@ def get_filters():
     return city, month, day
 
 def load_data(city, month, day):
-    """
-    Loads data for the specified city and filters by month and day if applicable.
-
-    Args:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
-    """
+    
     # load chosen city data file into dataframe
     df = pd.read_csv(CITY_DATA[city])
 
