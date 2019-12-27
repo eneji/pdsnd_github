@@ -12,4 +12,5 @@ chicago.csv, new_york_city.csv,washington.csv, bikeshare.py
 
 ### Credits
 https://dev.to/chanduthedev/how-to-display-all-rows-from-data-frame-using-pandas-dha
-https://geeksforgeeks.com
+https://geeksforgeeks.com/pandas
+https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
