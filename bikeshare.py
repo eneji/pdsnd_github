@@ -24,7 +24,7 @@ def get_filters():
 	# Get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Enter week day \n (options: all, monday, tuesday, ... , sunday): ').lower()
     while day not in days or month not in months or city not in cities:
-        print('invalid inputs')
+        print('invalid inputs. Enter quest details again')
         get_filters()
         
     print('-'*40)
