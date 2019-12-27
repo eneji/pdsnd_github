@@ -5,7 +5,7 @@
 Git Commands Documentation
 
 ### Description
-Using git commands for version control
+Using git commands for version control through github making use of the bikeshare project
 
 ### Files used
 chicago.csv, new_york_city.csv,washington.csv, bikeshare.py
