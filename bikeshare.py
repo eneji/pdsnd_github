@@ -19,9 +19,9 @@ def get_filters():
     
    
     city = input('Enter city to explore \n (options: chicago, new york city, washington): ').lower()
-            # TO DO: get user input for month (all, january, february, ... , june)
+    #get user input for month (all, january, february, ... , june)
     month = input('Enter month to explore \n (options: all, january, february, ... , june): ').lower()
-                # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+	# Get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Enter week day \n (options: all, monday, tuesday, ... , sunday): ').lower()
     while day not in days or month not in months or city not in cities:
         print('invalid inputs')
